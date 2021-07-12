@@ -6,18 +6,23 @@ export default StyleSheet.create({
         justifyContent: 'center'
     },
     image: {
-        width: 200, 
-        height: 200, 
-        borderRadius: 200/ 2
+        width: 150, 
+        height: 150, 
+        borderRadius: 150/ 2
     },
     name: {
-        fontSize: 24,
         fontWeight: 'bold',
-        textAlign: 'center'
+        textAlign: 'center',
+        paddingTop: 15,
+        fontFamily: Fonts.type.bold,
+        fontSize: Fonts.size.h5
         
     },
     position: {
+        fontWeight: 'bold',
         textAlign: 'center',
-        color: Colors.steel
+        color: Colors.steel,
+        fontFamily: Fonts.type.base,
+        fontSize: Fonts.size.medium
     }
 })

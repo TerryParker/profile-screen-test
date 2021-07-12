@@ -6,11 +6,11 @@ export default StyleSheet.create({
     backgroundColor: Colors.backgroundColor
   },
   icon: {
-    paddingLeft: 20
+    paddingLeft: 10
   },
   iconContainer: {
     flexDirection: "row",
     justifyContent: "space-evenly",
-    width: 120
+    width: 80
   }
 })

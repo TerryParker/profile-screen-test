@@ -6,9 +6,17 @@ export default StyleSheet.create({
     flex: 1,
     backgroundColor: Colors.snow
   },
-  viewContainer: {
+  imageContainer: {
     justifyContent: 'center',
     alignItems: 'center',
-    paddingTop: 50
+    paddingTop: 50,
+    paddingBottom: 30,
+    borderBottomWidth: 1,
+    borderColor: Colors.steel
+  },
+  socialContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    
   }
 })

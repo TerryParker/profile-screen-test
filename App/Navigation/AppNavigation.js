@@ -4,6 +4,7 @@ import ProfileScreen from '../Containers/ProfileScreen'
 import React from 'react'
 import {View} from 'react-native'
 import { AntDesign, Entypo } from '@expo/vector-icons'
+import {Badge} from 'react-native-elements'
 
 
 
@@ -31,9 +32,12 @@ ProfileScreen.navigationOptions = {
   ),
   headerRight: (
     <View style={styles.iconContainer}>
+      <View>
       <AntDesign name="bells" size={24} color="black" 
       onPress={() => {alert('weeeewooooweeeewooooo');}}
       />
+      <Badge value="" status="error" containerStyle={styles.badgeStyle} />
+      </View>
       <Entypo name="image" size={24} color="black" />
     </View>
   )

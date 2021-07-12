@@ -24,5 +24,10 @@ export default StyleSheet.create({
         color: Colors.steel,
         fontFamily: Fonts.type.base,
         fontSize: Fonts.size.medium
-    }
+    },
+    badgeStyle: {
+        position: 'absolute',
+        bottom: 3,
+        right: 25,
+      }
 })

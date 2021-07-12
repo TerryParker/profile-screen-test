@@ -12,5 +12,10 @@ export default StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-evenly",
     width: 80
+  },
+  badgeStyle: {
+    position: 'absolute',
+    top: 1,
+    right: 1,
   }
 })

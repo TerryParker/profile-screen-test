@@ -1,6 +1,11 @@
 import {createAppContainer} from 'react-navigation'
 import {createStackNavigator} from 'react-navigation-stack'
 import ProfileScreen from '../Containers/ProfileScreen'
+import React from 'react'
+import {View} from 'react-native'
+import { AntDesign, Entypo } from '@expo/vector-icons'
+
+
 
 import styles from './Styles/NavigationStyles'
 
@@ -18,5 +23,20 @@ const PrimaryNav = createStackNavigator(
     },
   },
 )
+
+ProfileScreen.navigationOptions = {
+  headerTitle: `Contact Details`,
+  headerLeft: (
+    <AntDesign name="pluscircleo" size={24} color="black" style={styles.icon}/>
+  ),
+  headerRight: (
+    <View style={styles.iconContainer}>
+      <AntDesign name="bells" size={24} color="black" 
+      onPress={() => {alert('weeeewooooweeeewooooo');}}
+      />
+      <Entypo name="image" size={24} color="black" />
+    </View>
+  )
+};
 
 export default createAppContainer(PrimaryNav)

@@ -23,5 +23,8 @@ export default StyleSheet.create({
     paddingBottom: 5,
     borderBottomWidth: 1,
     borderColor: Colors.steel
+  },
+  learnMoreContainer: {
+    paddingTop: 15,
   }
 })

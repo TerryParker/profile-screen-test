@@ -6,7 +6,7 @@ import { AntDesign, Entypo } from '@expo/vector-icons'
 function Footer() {
 
     handleClick = () => {
-        alert('This would take you to the ')  
+        alert('This would take you to the specific screen')  
     }
 
     return (

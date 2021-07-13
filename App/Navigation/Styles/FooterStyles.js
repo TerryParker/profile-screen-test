@@ -14,7 +14,8 @@ export default StyleSheet.create({
         borderTopWidth: 1,
         borderColor: Colors.cloud,
         justifyContent: "space-evenly",
-        width: '100%'
+        width: '100%',
+        backgroundColor: 'white'
     },
     icon: {
         paddingBottom: 30,

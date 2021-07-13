@@ -7,6 +7,7 @@ import LearnMore from '../Components/LearnMore'
 
 // Styles
 import styles from './Styles/ProfileScreenStyle'
+import RecentActivity from '../Components/RecentActivity'
 
 function ProfileScreen () {
   
@@ -24,6 +25,9 @@ function ProfileScreen () {
         </View>
         <View style={styles.learnMoreContainer}>
           <LearnMore/>
+        </View>
+        <View style={styles.recentActivityContainer}>
+          <RecentActivity/>
         </View>
       </ScrollView>
     )

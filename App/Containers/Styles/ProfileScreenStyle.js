@@ -18,5 +18,10 @@ export default StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     
+  },
+  aboutContainer: {
+    paddingBottom: 5,
+    borderBottomWidth: 1,
+    borderColor: Colors.steel
   }
 })

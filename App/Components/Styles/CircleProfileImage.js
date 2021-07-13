@@ -21,7 +21,7 @@ export default StyleSheet.create({
     position: {
         fontWeight: 'bold',
         textAlign: 'center',
-        color: Colors.steel,
+        color: 'gray',
         fontFamily: Fonts.type.base,
         fontSize: Fonts.size.medium
     },

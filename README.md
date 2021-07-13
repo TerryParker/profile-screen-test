@@ -76,9 +76,8 @@ Once you have completed the project email us your forked github repo url.
 
 ## How to Run This Version via Expo
 1. Install Expo application to desired testing device.
-2. Open up the project within VSCode.
-3. Open up a terminal window within the project directory.
-4. Run the command npm install
-5. Run the command npm start
-6. A QR code will appear within the terminal and the webpage that is opened up. Scan either of these barcodes on your device with Expo installed. (This can take a minute to load on the device)
-7. Enjoy.
+2. Open up a terminal window within the project directory.
+3. Run the command npm install
+4. Run the command npm start (or expo start)
+5. A QR code will appear within the terminal and the webpage that is opened up. Scan either of these barcodes on your device with Expo installed. (This can take a minute to load on the device)
+6. Enjoy.

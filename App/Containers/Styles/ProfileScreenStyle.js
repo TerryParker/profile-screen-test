@@ -4,7 +4,7 @@ import {Colors, Metrics} from '../../Themes/'
 export default StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: Colors.snow
+    backgroundColor: Colors.snow,
   },
   imageContainer: {
     justifyContent: 'center',
@@ -26,5 +26,9 @@ export default StyleSheet.create({
   },
   learnMoreContainer: {
     paddingTop: 15,
+  },
+  recentActivityContainer: {
+    paddingTop: 50,
+    paddingBottom: 50,
   }
 })

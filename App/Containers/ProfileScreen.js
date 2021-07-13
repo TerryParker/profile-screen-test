@@ -4,10 +4,11 @@ import CircleProfileImage from '../Components/CircleProfileImage'
 import SocialMedia from '../Components/SocialMedia'
 import AboutSection from '../Components/AboutSection'
 import LearnMore from '../Components/LearnMore'
+import RecentActivity from '../Components/RecentActivity'
+import AllActivities from '../Components/AllActivities'
 
 // Styles
 import styles from './Styles/ProfileScreenStyle'
-import RecentActivity from '../Components/RecentActivity'
 
 function ProfileScreen () {
   
@@ -28,6 +29,9 @@ function ProfileScreen () {
         </View>
         <View style={styles.recentActivityContainer}>
           <RecentActivity/>
+        </View>
+        <View style={styles.allActivitiesContainer}>
+          <AllActivities/>
         </View>
       </ScrollView>
     )

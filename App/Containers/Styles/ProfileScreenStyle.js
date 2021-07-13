@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native'
-import {Colors, Metrics} from '../../Themes/'
+import {Colors, Fonts, Metrics} from '../../Themes/'
 
 export default StyleSheet.create({
   container: {
@@ -30,5 +30,11 @@ export default StyleSheet.create({
   recentActivityContainer: {
     paddingTop: 50,
     paddingBottom: 50,
+    borderBottomWidth: 1,
+    borderColor: Colors.steel
+  },
+  allActivitiesContainer: {
+    paddingTop: 20,
+    paddingBottom: 60,
   }
 })

@@ -8,28 +8,28 @@ function SocialMedia() {
     <View style={styles.container}>
         <View style={styles.iconContainer}>
         <SocialIcon
-            iconColor= 'grey'
+            iconColor= 'gray'
             button
             type='facebook'
             onPress={() => { Linking.openURL('https://facebook.com')}}
             style={styles.roundIcon}
         />
         <SocialIcon
-            iconColor= 'grey'
+            iconColor= 'gray'
             button
             type='pinterest'
             onPress={() => { Linking.openURL('https://pinterest.com')}}
             style={styles.roundIcon}
         />
         <SocialIcon
-            iconColor= 'grey'
+            iconColor= 'gray'
             button
             type='twitter'
             onPress={() => { Linking.openURL('https://twitter.com')}}
             style={styles.roundIcon}
         />
         <SocialIcon
-            iconColor= 'grey'
+            iconColor= 'gray'
             button
             type='linkedin'
             onPress={() => { Linking.openURL('https://linkedin.com')}}

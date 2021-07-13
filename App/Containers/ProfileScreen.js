@@ -3,6 +3,7 @@ import {ScrollView, View} from 'react-native'
 import CircleProfileImage from '../Components/CircleProfileImage'
 import SocialMedia from '../Components/SocialMedia'
 import AboutSection from '../Components/AboutSection'
+import LearnMore from '../Components/LearnMore'
 
 // Styles
 import styles from './Styles/ProfileScreenStyle'
@@ -20,6 +21,9 @@ function ProfileScreen () {
         </View>
         <View style={styles.aboutContainer}>
           <AboutSection/>
+        </View>
+        <View style={styles.learnMoreContainer}>
+          <LearnMore/>
         </View>
       </ScrollView>
     )
